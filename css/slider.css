@@ -1,0 +1,159 @@
+/* Custom CSS3 for the RAAMC new web site.
+ * Mark Addinall
+ * January 2014
+ *
+ *  A CSS3 only slider.  I got sick of seeing Javascript
+ *  sliders that comprised of 80,000 lines of absolute
+ *  crap so I wrote this one for ALL of myu systems.
+ *  It is RESPONSIVE, FLUID and bloody convenient.
+ *
+ *
+ * VERY Lightweight.  Verifies as CSS3 as usual.
+ *
+*/
+
+@-webkit-keyframes slide_anim {
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
+}
+
+
+
+@-moz-keyframes slide_anim {
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
+}
+
+
+
+@-o-keyframes slide_anim {
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
+}
+
+
+
+@-ms-keyframes slide_anim {
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
+}
+
+
+
+@keyframes slide_anim {
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
+}
+
+div#slider {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    border: solid 4px white;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    overflow: hidden; }
+
+div#slider figure img { width: 10%; }
+
+div#slider figure {
+
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    left: 0;
+    font-size: 0;
+    -webkit-animation: 50s slide_anim infinite; 
+    -o-animation: 50s slide_anim infinite; 
+    -moz-animation: 50s slide_anim infinite; 
+    -ms-animation: 50s slide_anim infinite; 
+    animation: 50s slide_anim infinite; 
+    }
+
+    /* That's it.  The whole thing finished */
+
+

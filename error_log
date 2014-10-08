@@ -1,0 +1,4 @@
+[01-Feb-2014 17:00:20] PHP Fatal error:  Call to a member function getPublisherHTML() on a non-object in /home/addinall/public_html/contact.php on line 458
+[01-Feb-2014 17:02:04] PHP Fatal error:  Call to a member function getPublisherHTML() on a non-object in /home/addinall/public_html/contact.php on line 458
+[01-Feb-2014 17:05:37] PHP Fatal error:  Call to a member function getPublisherHTML() on a non-object in /home/addinall/public_html/contact.php on line 458
+[01-Feb-2014 17:06:48] PHP Fatal error:  Call to a member function getPublisherHTML() on a non-object in /home/addinall/public_html/contact.php on line 458

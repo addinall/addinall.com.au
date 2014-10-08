@@ -1,0 +1,266 @@
+/* Custom CSS3 for my new home page. 
+ * slim-silver.css
+ * The style sheet containing the web site
+ * CSS3 elements pertaining to forms.
+ *
+ *
+ * Mark Addinall
+ * January 2014
+ *
+ *  A CSS3 style/theme.  It is responsive and FLUID.
+ *  Only contains the TAGs we actually use.
+ *
+ *  Design from scratch for a CUSTOM implementation.
+ *
+ *
+ * VERY Lightweight.
+ *
+ * This is not going to validate CSS3 as all of vendor
+ * prefix attribute throw CSS errors.  This is a fucking pain
+ * in the arse.  It might be two years until this is all fixed up.
+ * If ever.
+ *
+*/
+
+    .slim-silver {
+        border: 1px solid #003300;
+        max-width: 350px;
+        width: 90%;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        border-radius: 20px;
+
+        background: rgba(209,201,209,1);
+        background: -moz-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(209,201,209,1)), color-stop(2%, rgba(209,201,209,1)), color-stop(2%, rgba(209,201,209,1)), color-stop(100%, rgba(68,65,68,1)));
+        background: -webkit-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: -o-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: -ms-linear-gradient(top, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        background: linear-gradient(to bottom, rgba(209,201,209,1) 0%, rgba(209,201,209,1) 2%, rgba(209,201,209,1) 2%, rgba(68,65,68,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1c9d1', endColorstr='#444144', GradientType=0 );
+
+        margin: 10px;
+        padding: 20px;
+        -moz-box-shadow:0px -5px 300px #000000;
+        -webkit-box-shadow:0px -5px 300px #000000;
+        box-shadow:0px -5px 300px #000000;
+        color: black;
+    }
+
+    .form_helper {
+        border: 1px solid #003300;
+        width: 120px;
+        height: 60px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
+        background: rgba(148,145,148,1);
+        background: -moz-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(148,145,148,1)), color-stop(14%, rgba(115,120,115,1)), color-stop(100%, rgba(26,25,26,1)));
+        background: -webkit-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: -o-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: -ms-linear-gradient(top, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        background: linear-gradient(to bottom, rgba(148,145,148,1) 0%, rgba(115,120,115,1) 14%, rgba(26,25,26,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#949194', endColorstr='#1a191a', GradientType=0 );
+         margin:1px auto;
+        -moz-box-shadow:0px -5px 300px #000000;
+        -webkit-box-shadow:0px -5px 300px #000000;
+        box-shadow:0px -5px 300px #000000;
+    }
+
+    .slim-silver label {
+        font-size: 15px;
+        list-style-type: none;
+        color: #fff;
+        text-shadow: #000 2px 2px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        display: block;
+    }
+    
+    .slim-silver .little-label {
+        display: inline-block;
+    }
+    
+    .slim-silver textarea {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #330033;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: rgba(250,245,248,1);
+        background: -moz-linear-gradient(-45deg, rgba(250,245,248,1) 0%, rgba(125,68,158,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(250,245,248,1)), color-stop(100%, rgba(125,68,158,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(250,245,248,1) 0%, rgba(125,68,158,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(250,245,248,1) 0%, rgba(125,68,158,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(250,245,248,1) 0%, rgba(125,68,158,1) 100%);
+        background: linear-gradient(135deg, rgba(250,245,248,1) 0%, rgba(125,68,158,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf5f8', endColorstr='#7d449e', GradientType=1 );
+        max-width: 300px;
+        width: 90%;
+        height: 200px;
+        color: black;
+    }
+
+    .slim-silver input {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #330033;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: #AD33AD;
+        max-width: 300px;
+        width: 94%;
+        color: black;
+    }
+
+    .slim-silver .small_input {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #330033;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: #AD33AD;
+        width: 100px;
+        color: black;
+    }
+
+    .slim-silver select {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        padding: 6px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 1px solid #330033;
+        -moz-box-shadow: 0px 0px 2px #000;
+        -webkit-box-shadow: 0px 0px 2px #000;
+        margin-bottom: 10px;
+        background: #AD33AD;
+        width: 100px;
+    }
+
+    .slim-silver input.submit {
+      -webkit-transition-property: -webkit-box-shadow, background;
+      -webkit-transition-duration: 0.25s;
+        width: 100px;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3300CC), to(#1A0066));   
+        background:  -moz-linear-gradient(19% 75% 90deg,#1A0066, #3300CC);
+        color: #fff;
+        text-shadow: #000 1px 1px;
+        border-top: 1px solid #330033;
+        margin-top: 10px;
+    }
+
+    .slim-silver input.submit:hover {
+        -webkit-box-shadow: 0px 0px 2px #000;
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6633FF), to(#281466));
+        background:  -moz-linear-gradient(19% 75% 90deg,#281466, #6633FF);
+    } 
+
+    .slim-silver input.submit:active {
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#781bb9), to(#963AD6));
+        background:  -moz-linear-gradient(19% 75% 90deg,#963AD6, #781bb9);
+    }
+
+    .slim-silver input:hover {
+        -webkit-box-shadow: 0px 0px 4px #000;
+        background: #CC80CC;
+    }
+                      
+   .slim-silver select:hover {
+        -webkit-box-shadow: 0px 0px 4px #000;
+        background: #CC80CC;
+    }                              
+
+/* these next two bits of Martian represent our GOOG-BAD icons
+ * in the input fields.  This is how to do icons in CSS3 whilst not
+ * slinging graphics  files around the web */
+
+
+
+
+ input:required:invalid, input:focus:invalid {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAeVJREFUeNqkU01oE1EQ/mazSTdRmqSxLVSJVKU9RYoHD8WfHr16kh5EFA8eSy6hXrwUPBSKZ6E9V1CU4tGf0DZWDEQrGkhprRDbCvlpavan3ezu+LLSUnADLZnHwHvzmJlvvpkhZkY7IqFNaTuAfPhhP/8Uo87SGSaDsP27hgYM/lUpy6lHdqsAtM+BPfvqKp3ufYKwcgmWCug6oKmrrG3PoaqngWjdd/922hOBs5C/jJA6x7AiUt8VYVUAVQXXShfIqCYRMZO8/N1N+B8H1sOUwivpSUSVCJ2MAjtVwBAIdv+AQkHQqbOgc+fBvorjyQENDcch16/BtkQdAlC4E6jrYHGgGU18Io3gmhzJuwub6/fQJYNi/YBpCifhbDaAPXFvCBVxXbvfbNGFeN8DkjogWAd8DljV3KRutcEAeHMN/HXZ4p9bhncJHCyhNx52R0Kv/XNuQvYBnM+CP7xddXL5KaJw0TMAF8qjnMvegeK/SLHubhpKDKIrJDlvXoMX3y9xcSMZyBQ+tpyk5hzsa2Ns7LGdfWdbL6fZvHn92d7dgROH/730YBLtiZmEdGPkFnhX4kxmjVe2xgPfCtrRd6GHRtEh9zsL8xVe+pwSzj+OtwvletZZ/wLeKD71L+ZeHHWZ/gowABkp7AwwnEjFAAAAAElFTkSuQmCC);
+    background-position: right top;
+    background-repeat: no-repeat;
+    -moz-box-shadow: none;
+  }
+  input:required:valid {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAepJREFUeNrEk79PFEEUx9/uDDd7v/AAQQnEQokmJCRGwc7/QeM/YGVxsZJQYI/EhCChICYmUJigNBSGzobQaI5SaYRw6imne0d2D/bYmZ3dGd+YQKEHYiyc5GUyb3Y+77vfeWNpreFfhvXfAWAAJtbKi7dff1rWK9vPHx3mThP2Iaipk5EzTg8Qmru38H7izmkFHAF4WH1R52654PR0Oamzj2dKxYt/Bbg1OPZuY3d9aU82VGem/5LtnJscLxWzfzRxaWNqWJP0XUadIbSzu5DuvUJpzq7sfYBKsP1GJeLB+PWpt8cCXm4+2+zLXx4guKiLXWA2Nc5ChOuacMEPv20FkT+dIawyenVi5VcAbcigWzXLeNiDRCdwId0LFm5IUMBIBgrp8wOEsFlfeCGm23/zoBZWn9a4C314A1nCoM1OAVccuGyCkPs/P+pIdVIOkG9pIh6YlyqCrwhRKD3GygK9PUBImIQQxRi4b2O+JcCLg8+e8NZiLVEygwCrWpYF0jQJziYU/ho2TUuCPTn8hHcQNuZy1/94sAMOzQHDeqaij7Cd8Dt8CatGhX3iWxgtFW/m29pnUjR7TSQcRCIAVW1FSr6KAVYdi+5Pj8yunviYHq7f72po3Y9dbi7CxzDO1+duzCXH9cEPAQYAhJELY/AqBtwAAAAASUVORK5CYII=);
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+    color:    white;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { 
+    color:    white;
+}
+input::-o-placeholder, textarea::-moz-placeholder { 
+    color:    white;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+    color:    white;
+}
+
+
+/* now a custom button for some form validation trickery */
+
+.go_button {
+   border-top: 1px solid #F2AFE3;
+   background: #4E044F;
+   background: -webkit-gradient(linear, left top, left bottom, from(#E66CC5), to(#4E044F));
+   background: -webkit-linear-gradient(top, #E66CC5, #4E044F);
+   background: -moz-linear-gradient(top, #E66CC5, #4E044F);
+   background: -ms-linear-gradient(top, #E66CC5, #4E044F);
+   background: -o-linear-gradient(top, #E66CC5, #4E044F);
+   padding: 9.5px 19px;
+   margin: 10px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+.go_button:hover {
+   border-top-color: #990371;
+   background: #990371;
+   color: #00FFFF;
+   }
+
+.go_button:active {
+   border-top-color: #4E0275;
+   background: #4E0275;
+   }
+
+
