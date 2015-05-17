@@ -514,11 +514,11 @@ $part_two = <<<EOE
     <div id="column_two">
       <h1 class="white">Zen Web Engineering - Networks</h1>
       <p class="p1">
-        Thanks for visiting my site, and my contact page.  You are welcome to use the form just to say HELLO!, but I have included a couple of business related items if you want to discuss any development/support/training issues.  Before we go anywhere, I have to make a point so as not to dissapoint.  <em>I DO NOT USE PHP MVC Frameworks.</em>  I know how they work, I have used all of them and I think that every last one of the clunkers are worse than rubbish.  So if you have a CodeIgniter, CakePHP, Symfony, Xii or Zend Framework task in mind, look ye elsewhere.  Seriously, the dozen or so projects I have worked on that tried to build an application using one of these systems all went the same way.  First three weeks were just <em>DANDY!</em>  Then when the application started to get complex, the design fell in a heap, leaving non-working, un-maintainable code. So no thanks.  I also <em>NO LONGER</em> do Java (love Javascript) because it is fat, old, slow and ugly.  I don't do Haskell, Ruby, Scala, C# or F# for very similar reasons.  Now that we have covered what I <em>DON'T</em> do, let's have a look at what I <em>DO</em> do! 
+        Thanks for visiting my site, and my contact page.  You are welcome to use the form just to say HELLO!, but I have included a couple of business related items if you want to discuss any development/support/training issues.  Before we go anywhere, I have to make a point.  <em>I am not keen on PHP MVC Frameworks.</em>  I know how they work, I have used all of them and I can't see the point in today's world of responsive design and AJaXy - AngularJS types of design. Also frameworks encourage people to write messy code. So if you have a CodeIgniter, CakePHP, Symfony, Xii or Zend Framework task in mind, the code had better be clean.  Seriously, the dozen or so projects I have worked on that tried to build an application using one of these systems all went the same way.  First three weeks were just <em>DANDY!</em>  Then when the application started to get complex, the design fell in a heap, leaving non-working, un-maintainable code. So no thanks.  I also <em>NO LONGER</em> do Java (love Javascript) because it is fat, old, slow and ugly.  I don't do Haskell, Ruby, Scala or F# for very similar reasons.  Now that we have covered what I <em>DON'T</em> do, let's have a look at what I <em>DO</em> do! 
       </p>
         <h2 class="black">PHP OOD/OOP Development</h2>
       <p class="p2">
-      PHP has been my major weapon of choice for over a decade now.  It is a simple and elegant little language that is <em>MESSED UP</em> on a regular basis by people trying to implement MVC garbage.  When used properly PHP allows us to develop small, reliable and easy to maintain source code for applications small and large. I would think that PHP represent around 75% of my total work to date. 
+      PHP has been my major weapon of choice for over a decade now.  It is a simple and elegant little language that is <em>MESSED UP</em> on a regular basis by people trying to be too clever by half.  <em>KISS</em>.  When used properly PHP allows us to develop small, reliable and easy to maintain source code for applications small and large. I would think that PHP represent around 75% of my total work to date. 
       </p>
         <h2 class="white">Modern Perl Development</h2>
       <p class="p1">
@@ -530,7 +530,7 @@ $part_two = <<<EOE
       </p>
         <h2 class="white">Javascript</h2>
       <p class="p1">
-        Again I can't see how anyone could AVOID Javascript.  I have had several years coding both native Javascript and jQuery framework.  I enjoy them both. 
+        Again I can't see how anyone could AVOID Javascript.  I have had several years coding both native Javascript and jQuery framework.  I enjoy them both.  At the moment I am transfixed with AngularJS and WebGL.  I am working on a few projects that use this new technology right now!  REALLY GOOD tools! 
       </p>
         <h2 class="black">Other Languages</h2>
       <p class="p2">
@@ -556,7 +556,7 @@ My guitars!  My surfboard and my pushie!  Reading. Quiet BBQs.  Beer.  Family Gu
       </p>
         <h2 class="white">Pet Hates</h2>
       <p class="p1">
-<em>MVC PHP.</em> emacs. Prolog. Scala. People telling me how networks work. The Brisbane Public Transport system with a <em>DOUPLEPLUSBAD!</em> for the Bus system and timetables/routes that are a work of pure <em>FICTION!</em>  The ABC. The Greens.
+emacs. Prolog. Scala. The Brisbane Public Transport system with a <em>DOUPLEPLUSBAD!</em> for the Bus system and timetables/routes that are a work of pure <em>FICTION!</em>  The ABC. The Greens.
       </p>
 EOE;
 
