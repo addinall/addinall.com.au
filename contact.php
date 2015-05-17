@@ -554,10 +554,6 @@ $part_two = <<<EOE
       <p class="p2">
 My guitars!  My surfboard and my pushie!  Reading. Quiet BBQs.  Beer.  Family Guy, Southpark and The Big Bang Theory.  Dark stained Gibson SGJs with black furniture.
       </p>
-        <h2 class="white">Pet Hates</h2>
-      <p class="p1">
-emacs. Prolog. Scala. The Brisbane Public Transport system with a <em>DOUPLEPLUSBAD!</em> for the Bus system and timetables/routes that are a work of pure <em>FICTION!</em>  The ABC. The Greens.
-      </p>
 EOE;
 
     print $part_two;
