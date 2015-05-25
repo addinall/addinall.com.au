@@ -183,7 +183,7 @@ if ($debug) {
                 </p>
                 <h1 class="white">eLearning</h1>
                 <p class="p1">
-                People that know me know that I have been a student pretty much all of my life.  Never once attended Uni full time, always had a job to do, but made sure I studied every year.  Lately I became interested in eLearning.  Here are a few of the electronic course I have taken during 2012, 2013 and 2014 along with results.  The concept is fantastic.  One course I took, Virology I was possible <em>THE BEST</em> course I have ever done, bar none.  I would like to get involved in education - educational software as an occupation.  The concepts are fine, the user interfaces are clunky! Open to offers, see my contact page!
+                People that know me know that I have been a student pretty much all of my life.  Never once attended Uni full time, always had a job to do, but made sure I studied every year.  Lately I became interested in eLearning.  Here are a few of the electronic course I have taken during 2012, 2013 and 2014 along with results.  The concept is fantastic.  One course I took, Virology I was possible <em>THE BEST</em> course I have ever done, bar none.  I would like to get involved in education - educational software as an occupation.  The concepts are fine, the user interfaces are clunky! Open to offers, see my contact page!  eLearning from a software point of view; I am currently in the throws of advanced AngularJS with Meteor.  MVC as it is SUPPOSED to be done.  So very, very, very good.  Also WebGL for tightly bound PUSH pages using a new interface paradigm.  I am having a LOT of fun with this stuff!
                 </p>
             </div>
 
