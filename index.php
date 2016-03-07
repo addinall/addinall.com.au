@@ -61,6 +61,8 @@
 // global debug variable to turn on and off testing code
 // you might want to leave this alone
 
+$debug = 0;
+
 if ($debug) {
     error_reporting(-1);
 }
@@ -196,17 +198,17 @@ if ($debug) {
                 <p class="p3">
                 A very simple, minimalistic web site for my good friend in Africa, Belinda Addinall. It is responsive apart from the Heading.  I must fix that now that I remember.   Just an example of how a web site can be pretty, functional, and not take up a terabyte of space and a development team for a year!  This is a free plug and a cross link!
                 </p>
-                <h1 class="black">Cross City DJs</h1>
+                <h1 class="black">Zen Garden</h1>
                 <p class="p2">
-                A <em>NOT</em> very simple, <em>UN-</em>minimalistic web site for my good friend Lawrence Ridolfi.  This one took some time and effort!  It is a busy busy busy site!  That is what the customer wanted!  So after blood, sweat and tears, <em>FIGHTING</em> WordPress at every step of the way, we finally finished the thing!  The Contact Page has more code in it that the Junk Strike Fighter!  Some Web sites turn out bigger than Ben Hur!  I have had a few in the past...  Again this is a free cross-link and an unashamed plug for Cross City DJs, Brisbane and the Gold Coast! Terrific DJ!  Here is a more recent web page put together for <a href="http://www.crosscitydjs.com.au/eportfolio" target="_blank">Cross City.</a> Somewhat sadly I taught the owner how to use Wordpress CMS and what was once a couple of lovely sites now really look and feel BLOODY AWFUL.  My name has gone away from the footer.  "The customer is always right".  Except when they are colour blind and talentless.  NO LONGER MY DESIGN.
-                </p>
-                <h1 class="white">Zen Garden</h1>
-                <p class="p3">
                  This is one of my <em>VERY</em> favourite pages on the Web.  I have been visiting the site for ten years now and it has influenced the way I code to a great extent.  Keeping the HTML simple, clean, small, readable and <em>FREE</em> of in-line styling, and have the work done by CSS.  This was difficult in the past, but do-able.  There were many cross-browser "hacks" to consider and some fundemental differences in architecture as in &lsquo;What is the BORDER-WIDTH&rsquo;!  Thankfully most of this clumsiness has vanished, and we CSS3 we are truly able to work magic! I am still exploring the CSS3 attributes and transistions  I still have a way to go and am <em>NEVER</em> going to be a Graphic Artist, but I have fun with it. I hope you like having a little look around.  Visit the <em>CONTACT</em> page and send me a message! Suggestions very welcome.
                 </p>
-                <h1 class="black">More Work.</h1>
+                <h1 class="white">More Work.</h1>
+                <p class="p3">
+                A lot of my work over the last two decades has been implementing applications on intranets, CAMEL (Coal and Mineral Electonic Link) for QLD Rail and BHP, QuickTools for Telstra, Quicktools for OPTUS, QuickTools for iiNEt, various in-house management systems and such-like, so it is not easy to view that side of my work.  I have taken screenshots of a few of them <a href="https://www.facebook.com/photo.php?fbid=10202054196654778&amp;set=a.1700744196760.2086870.1182579989&amp;type=3&amp;theater" target="_blank">HERE</a> if you would like a peek!  Some live sites in the travel industry live <a href="http://www.africa-adventure.com" target="_blank">HERE</a> and <a href="http://www.outbackencounter.com"  target="_blank">HERE</a>.   My CV is <a href="http://www.addinall.net/Mark_Addinall_Software.pdf" target="_blank">HERE</a>.  Be warned, it is <em>LONG</em>.  I have been coding every day just about for thirty five years now!  Thanks for dropping in!      
+                </p>
+                <h1 class="black">Data Science.</h1>
                 <p class="p2">
-                A lot of my work over the last two decades has been implementing applications on intranets, CAMEL (Coal and Mineral Electonic Link) for QLD Rail and BHP, QuickTools for Telstra, Quicktools for OPTUS, QuickTools for iiNEt, various in-house management systems and such-like, so it is not easy to view that side of my work.  I have taken screenshots of a few of them <a href="https://www.facebook.com/photo.php?fbid=10202054196654778&amp;set=a.1700744196760.2086870.1182579989&amp;type=3&amp;theater" target="_blank">HERE</a> if you would like a peek!  Some live sites in the travel industry live <a href="http://www.africa-adventure.com" target="_blank">HERE</a> and <a href="http://www.outbackencounter.com"  target="_blank">HERE</a>.   My CV is <a href="http://www.addinall.net/Mark_Addinall_cv_plain.pdf" target="_blank">HERE</a>.  Be warned, it is <em>LONG</em>.  I have been coding every day just about for thirty five years now!  Thanks for dropping in!      
+		In the past I have worked with large data sets.  The International Steel Statistics Bureau and the Australian Bureau of Statistics.  I found the challenge of working with "Big Data" an enourmous amount of fun.  T improve my skill set as a data scientist I am taking the Johns Hopkins University <em>Data Science Specialization</em> series of courses.  These include: "The Data Scientist's Toolbox", "R Programming", "Getting and Cleaning Data", "Exploratory Data Analysis", "Reproducable Research", "Statistical Inference", "Regression Models", "Practical Machine Learning", "Developing Data Products" and a final Capstone project.  So far I have completed the Data Scientist's Toolbox and R Programming.  Both with a score of 100% and Distinctions. View <a href="datascitoolbox2015.pdf" target="_blank">Data Scientist's Toolbox here</a> and <a href="rprog2015.pdf" target = "_blank">R Programming here</a>.
                 </p>
             </div>
         </div>

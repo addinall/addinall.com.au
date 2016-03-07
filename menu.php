@@ -25,7 +25,6 @@ $menu =<<<EOMENU
                     <li><a href="/ehealth" target="_blank">eHealth</a></li>
                     <li><a href="/Recent_results/compile.pdf" target="_blank">eLearning</a></li>
                     <li><a href="/natural" target="_blank">Natural</a></li>
-                    <li><a href="http://www.crosscitydjs.com.au" target="_blank">Cross City</a></li>
                     <li><a href="http://www.csszengarden.com" target="_blank">Zen Garden</a></li>
                     <li><a href="http://www.addinall.org" target="_blank">addinall.org</a></li>
                 </ul>

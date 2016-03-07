@@ -161,7 +161,7 @@ if ($debug) {
 // That is all I am going to bother with.  Can't be fucked
 // dicking around with JOOMLA! or any of the other monster CMS systems.
 
-// $platform = "WEBPAGE";
+ $platform = "WEBPAGE";
 // $platform = "FACEBOOK";
 // $platform = "WORDPRESS";
 
@@ -192,10 +192,10 @@ if ($platform == "FACEBOOK") {
 // squinting into the sun or down a rifle barrel!  ex Army.  Blind as
 // Coots!  Just like me!  I really can  not see the world any longer!
 
-    if ($platform == "WEBPAGE") {
-        require_once("tools/ayah.php");
-        $ayah = new AYAH();
-    }
+//    if ($platform == "WEBPAGE") {
+//        require_once("tools/ayah.php");
+//        $ayah = new AYAH();
+//    }
 
 
     // Check to see if the user has submitted the form.
@@ -207,11 +207,12 @@ if ($platform == "FACEBOOK") {
     // tool has o't been integrated by me on the Faceslap or Wordpress models
     // as yet.  So those platforms get no CAPTCHA security at the moment.
 
-    if ($platform == "WEBPAGE") {
-        $score = $ayah->scoreResult();
-    } else {
-        $score = true;
-    }
+//    if ($platform == "WEBPAGE") {
+//        $score = $ayah->scoreResult();
+//    } else {
+    
+	    $score = true;
+//    }
 
     // now we set up what is going to be common amongst these
     // subsequent information pages in all state.  Worked,
@@ -321,14 +322,6 @@ EOH;
       <p class="p1">
       That's IT has been sent mail containg the information displayed on the left in our data tablet. Thank you for contacting me, and I will get back to you shortly. 
       </p>
-    <h2 class="black">Why the DUMB CARTOON!</h2>
-      <p class="p2">
-Why play with the weird cartoons? CAPTCHA. It is a nuisance at times, and yet, it’s a necessity to keep web forms from getting spammed by bots. Consisting of an image with distorted letters and words (that are often illegible), its primary use is to tell the difference between computers and humans. Until now, it’s been mostly successful. However, startup company Vicarious has shown that it has developed an artificial intelligence algorithm that can convince CAPTCHA that its computers are human, bypassing the security, with up to 90% accuracy.
-     </p>
-    <h2 class="white">What can Happen?</h2>
-     <p class="p1">
-This will allow bots to use this machine as a SPAM bulk mailer, or worse, a part of DDoS (Distributed Denial of Service attacks) and since I am a white hat, I guard against intrusions as well as I can.  So thanks!
-     </p>
 EOP2;
 
     //</div>
@@ -362,39 +355,11 @@ EOP2;
     <h1>Contact Form</h1>
     <h2>Bummer!  The mailer broke!</h2>
       <p class="p1">
-      The Smallpond cluster in Texas seems to have a broken mailer at the moment.  Your contact details could not be forwarded.  The very BEST thing to do now is to just send some email directly to addinall@addinall.net and ignore this form for a day!  Sorry about that.  I shall go and look at what is broken..
+      The cluster in Singapore seems to have a broken mailer at the moment.  Your contact details could not be forwarded.  The very BEST thing to do now is to just send some email directly to addinall@addinall.net and ignore this form for a day!  Sorry about that.  I shall go and look at what is broken..
       </p>
 EOP3;
             print $page_three;
-
-        }
-
-    } else {
-        // This happens if the user does not pass the game.
-        // Having had two or three re-tries.  It is a shame that the
-        // widget does not terminate after n tries or I seconds.
-
-
-            print $page;
-
-            $page_four = <<<EOP4
-    <div id="coltwo">
-    <h1>Contact Form</h1>
-    <h2 class="black">Bummer!  Security failure</h2>
-      <p class="p1">
-      Our security robot seems to think you might be a BOT trying to use us as a SPAM remailer.  This is due to input failing the security game.  Your application could not be forwarded.  We will however re-direct you to our home page and you can have another go if you REALLY ARE HUMAN!If you are a human, and this message keeps pestering you, then WE have broken something.  The very BEST thing to do now is to contact me via normal email at addinall.addinall.net. 
-      </p>
-    <h2 class="white">What is THIS?</h2>
-      <p class="p2">
-Why play with the weird cartoons? CAPTCHA. It is a nuisance at times, and yet, it’s a necessity to keep web forms from getting spammed by bots. Consisting of an image with distorted letters and words (that are often illegible), its primary use is to tell the difference between computers and humans. Until now, it’s been mostly successful. However, startup company Vicarious has shown that it has developed an artificial intelligence algorithm that can convince CAPTCHA that its computers are human, bypassing the security, with up to 90% accuracy.  This routine keeps a count of howmany correct moves vs. incorrect moves you made on the cartoon challenge.
-     </p>
-    <h2 class="black">What can Happen?</h2>
-     <p class="p1">
-This will allow bots to use this machine as a SPAM bulk mailer, or worse, a part of DDoS (Distributed Denial of Service attacks) and since I am a white hat, I guard against intrusions as well as I can.  So thanks!
-     </p>
-EOP4;
-            print $page_four;
-
+	}
     }
 } else {
 
@@ -471,15 +436,12 @@ EOF;
 // load and run PlayThru. We must place this code
 // directly before your 'Submit' button.
 
-    echo $ayah->getPublisherHTML();
+//    echo $ayah->getPublisherHTML();
 
 $part_two = <<<EOE
-            <input type="submit" value="Submit" id="submit" name="submit" style="display:none;" />
+            <input type="submit" value="Submit" id="submit" name="submit"  />
         </form>    
 
-        <div class="form_helper">
-            <button class="go_button" onclick="checkAndSubmit()"> Submit </button>
-        </div> 
 
     <!--  now some blurb under the form -->
 
